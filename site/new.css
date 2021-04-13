@@ -1,0 +1,30 @@
+body{
+background-color:lightblue;
+text-align: center;
+}
+h1{
+font-size: 70px;
+color: red;
+}
+h2{
+font-size: 30px;
+color: blue;
+}
+h3{
+font-size: 30px;
+color: red;
+}
+p{
+font-size: 20px;
+}
+tr {
+  background-color: white;
+  text-align:center;
+  color:blue;
+  
+}
+table,th,td{
+border:2px solid red;
+}
+
+
