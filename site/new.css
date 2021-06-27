@@ -11,7 +11,6 @@
 body{
 	width: 100%;
 	height: 100%;
-	font-family: "Comic Sans Ms",cursive,sans-serif;
 background-color: #61122f;
 text-align: center; 
 
@@ -21,7 +20,7 @@ text-align: center;
 .logo{
 
 	position: relative;
-	right: -10px;
+	right: -20px;
 	bottom: 0px;
 	height: 90px;
 	width: 150px;
