@@ -76,6 +76,11 @@ a:hover,a:active{
 	color: purple;
 
 }
+.img:hover{
+	border: 4px solid darkred;
+
+
+}
 
 /* **********image************ */
 
