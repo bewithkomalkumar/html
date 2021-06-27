@@ -88,12 +88,20 @@ img{
 
 	height: 150px;
 	width: 150px;
+
 }
 .img{
-		border: 2px solid black;
 	text-align: center;
+	animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 	}
 
+@keyframes example {
+  
+  0%  {border:2px solid blue;}
+  100% {border:2px solid red;}
+}
 /* **********left bar************ */
 
 
@@ -181,4 +189,12 @@ img{
 	position: absolute;
 	right: 0px;
 	opacity: .7;	
+}
+
+/* *****   items page images            ******* */
+.img1 {
+	margin: 5px;
+	padding: 5px;
+border:2px solid black;
+
 }
