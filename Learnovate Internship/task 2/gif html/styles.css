@@ -1,0 +1,12 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: lavender;
+	text-align: center;
+}
+.img{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
