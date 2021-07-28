@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(176, 239, 241);
+    margin: 0 100px 0 100px;
+
+}
+
+/* *************FIRST BLOCK****************** */
+.first-block{
+    height: 260px;
+    background-color: rgb(241, 241, 247);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: blue;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+span{
+    font-weight: bold; 
+    margin-left: 10px;
+}
+
+.picture{
+    position: relative;
+    float:right ; 
+    right: 200px;
+    height: 200px;
+    width: 150px;
+    padding: 2px;
+    border:2px solid black;
+}
+
+.name{
+   font-size: 2em;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+.name-title{
+   margin-left: 200px;
+   margin-top: 20px;
+}
+
+
+/* *************FIRST BLOCK****************** */
+
+
+
+
+/*  *************** SOCIAL MEDIA******************   */
+.second-block{
+    position: relative;
+    bottom: 80px;
+    left: 200px;
+    height: 100px;
+    width: 250px;
+    border: 2px solid black;
+}
+.social-media{
+    margin-left: 10px;
+    position:relative;
+}
+.social-media1{
+position: relative;
+bottom: 68px;
+left: 90px;    
+}
+.social{
+    height: 50px;
+    width: 50px;
+}
+
+.social-media2{
+    position: relative;
+    bottom: 142px;
+    left: 180px;    
+    }
+
+/*  ***************SOCIAL MEDIA******************   */
+
+
+
+
+
+/*  ***************MEDIA QRY******************   */
+
+@media(min-width:320px) and (max-width:480px)
+{
+body {
+    margin: 0 ;
+    text-align: center;
+    display: block;
+}
+/* *************FIRST BLOCK MOBILE****************** */
+.picture{
+    margin: 0;
+    position: relative;
+    float: none;
+    right:0;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    padding: 2px;
+    border:2px solid black;
+}
+.name{
+    margin: 0;
+    display: block;
+    text-align: center;
+     }
+
+.name-title{
+        margin: 0;
+     }
+
+ span{
+        font-weight: bold; 
+        margin: 0;
+        
+    }
+
+ .first-block{
+        height: 400px;
+        background-color: rgb(241, 241, 247);
+        
+    }
+ /* *************FIRST BLOCK MOBILE****************** */
+
+
+
+/* *************SECOND BLOCK MOBILE****************** */
+.second-block{
+    position: relative;
+    bottom: 50px;
+    left: 68px;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+}
+.social-media{
+    
+    position:relative;
+    right: 110px;
+    top: 10px;
+}
+.social-media1{
+position: relative;
+bottom: 60px;
+left: 0px;   
+}
+.social{
+    height: 50px;
+    width: 50px;
+}
+
+.social-media2{
+    position: relative;
+    bottom: 135px;
+    left: 110px;    
+    }
+
+/* ************SECOND BLOCK MOBILE****************** */
+
+
+/*  ***************MEDIA QRY******************   */
+
+
+}
