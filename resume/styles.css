@@ -139,8 +139,7 @@ body {
 .second-block{
     position: relative;
     bottom: 50px;
-    left: 68px;
-    text-align: center;
+    left:38px;
     height: 100px;
     width: 300px;
     border: 2px solid black;
