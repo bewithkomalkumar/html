@@ -177,7 +177,6 @@ body {
 h1{
     display: block;
     width: 100%;
-    visibility:visible;
     background-color: antiquewhite;
     font-size: 3rem;
     color: blue;
