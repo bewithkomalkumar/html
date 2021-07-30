@@ -183,6 +183,9 @@ h1{
     text-decoration: underline;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+a{
+    color: blue;
+}
 /* *************FIRST BLOCK MOBILE****************** */
 .picture{
     margin: 0;
@@ -242,16 +245,17 @@ h1{
     margin: 0 0 5px 0;
 }
 
+
 .second-block a:link,a:visited{
     text-decoration: none;
-    background-color:red;
+    background-color:rgb(97, 205, 255);
     border: 2px solid black;
     padding: 5px;
     width: 300px;
     display: block;
     text-align: center;
     margin: 0 0 2px 0;
-    color:blue;
+    color:rgb(223, 247, 89);
 
 }
 a:hover,a:active{
