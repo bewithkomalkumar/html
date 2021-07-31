@@ -20,6 +20,11 @@ body{
      margin-left: 40px;
       margin-right: 40px;
 }
+.sentence1{
+  margin-left:-10px; 
+  text-align: left;
+  
+}
 /* *************FIRST BLOCK STARTS HERE****************** */
 .first-block{
     height: 260px;
@@ -439,6 +444,12 @@ a:hover,a:active{
       color: blue;
   
 }
+
+.sentence1{
+  margin-left:-10px; 
+  text-align: center;
+  
+}
 /*  ***************MEDIA QRY STRATS HERE******************   */
 
 
@@ -529,6 +540,12 @@ a:hover,a:active{
           color: blue;
       
     }
+    .sentence1{
+      margin-left:-10px; 
+      text-align: center;
+      
+    }
+
 }
 
 
@@ -613,6 +630,11 @@ a:hover,a:active{
       }
       strong{
           color: blue;
+      
+    }
+    .sentence1{
+      margin-left:-10px; 
+      text-align: center;
       
     }
 }
