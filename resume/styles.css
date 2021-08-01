@@ -238,7 +238,233 @@ i{
 
 /*  ***************MEDIA QRERY STARTS HERE******************   */
 
-@media(min-width:320px) and (max-width:480px)
+
+@media(max-width:320px)
+{
+  body {
+      margin: 0 ;
+      text-align: center;
+      display: block;
+  }
+  h1{
+      display: block;
+      width: 100%;
+      background-color: antiquewhite;
+      font-size: 3rem;
+      color: blue;
+      text-decoration: underline;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  a{
+      color: blue;
+  }
+  /* *************FIRST BLOCK MOBILE****************** */
+  .picture{
+      margin: 0;
+      position: relative;
+      top: 10px;
+      float: none;
+      right:0;
+      text-align: center;
+      height: 200px;
+      width: 150px;
+      padding: 2px;
+      border:2px solid black;
+  }
+  .name{
+      margin: 0;
+      display: block;
+      text-align: center;
+       }
+  
+  .name-title{
+          
+          margin-top: 20px;
+          margin-left: 0;
+  
+       }
+      .name-title a{
+          
+        font-size: 18px !important;
+
+     }
+
+  
+   span{
+          font-weight: bold; 
+          margin: 0;
+          
+      }
+  
+   .first-block{
+          height: 500px;
+          background-color: rgb(241, 241, 247);
+          
+      }
+   /* *************FIRST BLOCK MOBILE****************** */
+  
+  
+  
+  /* *************SECOND BLOCK MOBILE****************** */
+  .second-block{
+      top: 25px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      bottom: 0px;
+      display: block;
+         
+  }
+      
+  
+  .social{
+      height: 50px;
+      width: 50px;
+      margin: 0 0 5px 0;
+  }
+  
+  
+  .second-block a:link,a:visited{
+      text-decoration: none;
+      background-color:rgb(97, 205, 255);
+      border: 2px solid black;
+      padding: 5px;
+      width: 250px;
+      display: block;
+      text-align: center;
+      margin: 0 0 2px 0;
+      color:rgb(223, 247, 89);
+  
+  }
+  a:hover,a:active{
+      border: 2px solid rgb(250, 149, 149);
+      color: purple;
+  }
+  
+  /* ************SECOND BLOCK MOBILE****************** */
+  
+  #tagline{
+      background-color: gray;
+      opacity: .4;
+      height: 40px;
+  }
+  #heading {
+      position: relative;
+      text-align: center;
+      margin-left: 0px;
+      font-size: 1.5rem;
+      font-weight: bold; 
+      top:-33px;
+  }
+  
+  
+  
+  
+  .timeline a:link,a:visited{
+  
+      text-decoration:underline;
+      display: block;
+      text-align: center;
+      color:rgb(2, 0, 7);
+  
+  }
+  
+  .timeline-space{
+      height: 1200px;
+  
+  }
+  .timeline{
+      position: absolute;
+      background-color: azure;
+      height: 1010px;
+      font-size: 1.5rem;
+      width: 6px;
+      border-radius: 5px;
+      margin-left: 15px;
+    }
+    
+    .circle{
+      position: relative;
+      width:25px;
+      height: 25px;
+      top: 25px;
+      right: 10px ;
+      border-radius: 50%;
+      padding: 2px;
+      border: 2px solid #ff9f55;
+      background-color: white;
+    }
+    
+    .content{
+      text-align: center;
+      position: relative;
+      left: 30px;
+      font-size: 1.5rem;
+      padding: 5px;
+      background-color: #fdfdfd;
+      border-style: groove;
+      border-radius: 5px;
+      width: 250px;
+      height: auto;
+    
+    
+    }
+    .content-right{
+      text-align: center;
+      position: relative;
+      left: 30px;
+      font-size: 1.5rem;
+      background-color: #fdfdfd;
+      border-style: groove;
+      padding: 5px;
+      border-radius: 5px;
+      width: 250px;
+      height: auto;
+    
+    
+    }
+    .date strong {
+      color: black;
+      background-color: yellow;
+      width: 150px;
+      text-align: center;
+      border-radius: 5px;
+      top: -45px;
+      border-style: groove;
+      position: absolute;
+      left: 90px;
+    }
+    
+    .date-right strong
+    {
+      background-color: yellow;
+      width: 150px;
+      text-align: center;
+      border-radius: 5px;
+      border-style:groove ;
+      color: black;
+      top: -45px;
+      position: absolute;
+      left: 90px;
+    }
+    strong{
+        color: blue;
+    
+  }
+  
+  .sentence1{
+    margin-left:-10px; 
+    text-align: center;
+    
+  }
+  /*  ***************MEDIA QRY STRATS HERE******************   */
+  
+  
+  }
+  
+
+
+@media(min-width:321px) and (max-width:480px)
 {
 body {
     margin: 0 ;
@@ -457,7 +683,6 @@ a:hover,a:active{
 
 
 
-
 @media(min-width:481px) and (max-width:768px)
 {
     .timeline-space{
@@ -495,7 +720,7 @@ a:hover,a:active{
         background-color: #fdfdfd;
         border-style: groove;
         border-radius: 5px;
-        width: 250px;
+        width: 240px;
         height: auto;
       
       
@@ -503,13 +728,13 @@ a:hover,a:active{
       .content-right{
         text-align: center;
         position: relative;
-        right: 260px;
+        right: 250px;
         font-size: 1.5rem;
         background-color: #fdfdfd;
         border-style: groove;
         padding: 5px;
         border-radius: 5px;
-        width: 250px;
+        width: 240px;
         height: auto;
       
       
