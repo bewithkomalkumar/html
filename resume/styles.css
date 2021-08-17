@@ -55,6 +55,7 @@ span{
     width: 150px;
     padding: 2px;
     border:2px solid black;
+    box-shadow: 5px 10px 18px grey;
 }
 
 .name{
@@ -80,12 +81,14 @@ span{
     text-align: center;
     margin-left: 40px;
     bottom: 40px;
+    
     width: 250px;
 }
     
 .social{
     height: 50px;
     width: 50px;
+    
     margin: 0 10px 0 10px;
 }
 a:link,a:visited{
@@ -99,6 +102,7 @@ a:link,a:visited{
 }
 a:hover,a:active{
     border: 2px solid rgb(250, 149, 149);
+    box-shadow: 5px 10px 18px grey;
     color: purple;
 }
 
@@ -171,6 +175,7 @@ a:hover,a:active{
     padding: 5px;
     background-color: #fdfdfd;
     border-style: groove;
+    box-shadow: 5px 10px 18px grey;
     border-radius: 5px;
     width: 400px;
     height: auto;
@@ -183,6 +188,7 @@ a:hover,a:active{
     right: 410px;
     font-size: 1.5rem;
     background-color: #fdfdfd;
+    box-shadow: 5px 10px 18px grey;
     border-style: groove;
     padding: 5px;
     border-radius: 5px;
