@@ -1,44 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift items</title>
+    <!------------here my css ------------->
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="new.css">
-<title>Gift Item</title>
+</head>
+
 <body>
-
-	<!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+    <!------------section 1 starts ------------->
+    <div class="container-fluid">
 
 
-	<h1><img class="logo" src="picture/logo.png"></img>Gift Items Available <div id="back"><a href="index.html">Home</a><div></h1>
-<br>
+        <nav class="color">
 
-<div class="row" >
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/1.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/2.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/3.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/4.jpg" alt="Mug Printing" style="width:350px;height:450px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/5.jpg" alt="Mug Printing" style="width:350px;height:450px;"></div>
-		<!-- <div class="col-lg-4 col-ls-4 col-xs-1"><img class="img" src="picture/gift/6.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div> -->
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/7.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/8.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/9.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/10.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/11.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/12.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/13.jpg" alt="Mug Printing" style="width:350px;height:450px;"></div>
-		<div class="col-lg-4 col-ls-4 col-xs-1"><img class="img1" src="picture/gift/14.jpg" alt="Mug Printing" style="width:450px;height:350px;"></div>
-</div>
+            <a href="">
+                <img class="logo" src="logo.png" alt="">
+            </a>
+            <h1>Prem Digital Studio</h1>
+            <div class="nav">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+            </div>
 
+        </nav>
+    </div>
+    <!------------section 1 end ------------->
+
+
+
+    <button class="btn btn-primary position-absolute" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Book now</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Book Now</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdr2q9BuUbfKgCWaGx8kGjFJ6M7Zw3-W3zC3GGnnoFLHmLc_Q/viewform?embedded=true"
+                height="943" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+    <!------------section 2 starts------------->
+
+    <h2 class="container-fluid">Gift Items</h2>
+    <section id=products>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/gifts/1.png" alt="Cushion">
+                            <div class="tiles">
+                                <p class="tiles-name">Cushion</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/gifts/2.jpg" alt="sipper">
+                            <div class="tiles">
+                                <p class="tiles-name">Sipper</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/gifts/3.jpg" alt="key chain">
+                            <div class="tiles">
+                                <p class="tiles-name">Key chain</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/gifts/4.jpeg" alt="key chain">
+                            <div class="tiles">
+                                <p class="tiles-name">Key chain</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="box">
+                            <a href="/images/gifts/5.jpeg" target="_blank">
+                                <img class="img" src="/images/gifts/5.jpeg" alt="key chain">
+                                <div class="tiles">
+                                    <p class="tiles-name">Key chain</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="/images/gifts/6.jpeg" target="_blank">
+                                <img class="img" src="/images/gifts/6.jpeg" alt="key chain">
+                                <div class="tiles">
+                                    <p class="tiles-name">Pen</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="box">
+                            <a href="/images/gifts/7.jpeg" target="_blank">
+                                <img class="img" src="/images/gifts/7.jpeg" alt="key chain">
+                                <div class="tiles">
+                                    <p class="tiles-name">Pen & Key chain</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+    
+
+                </div>
+               
+
+
+            </div>
+    </section>
+
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col text-center">
+                <div>Follow us @Social Media</div>
+                <br>
+
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.facebook.com/premdigitalstudio1993" target="_blank"><img class=social
+                            src="/images/logo/fb.png" alt="">
+                        <div>facebook</div>
+                    </a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/premstudionangloi/" target="_blank"><img class=social
+                            src="/images/logo/in.png" alt="">
+                        <div>Instagram</div>
+                    </a>&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UCdGWrrzEZ8IKntb1fjtQdkw" target="_blank"><img class=social
+                            src="/images/logo/yt.png" alt="">
+                        <div>Youtube</div>
+                    </a>&nbsp;&nbsp;
+                    <a href="https://wa.me/+919213926442?text=I'm%20interested%20i%20just%20saw%20your%20website"
+                        target="_blank"><img class=social src="/images/logo/wa.png" alt="">
+                        <div>Whatsapp</div>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col text-center contact-details">
+
+                <div class="d-flex justify-content-center"><strong>Address:</strong> C-429 , Phase 2, Nangloi
+                    Delhi-110041.</div>
+                <div class="d-flex justify-content-center"><strong>Mobile : </strong><a href="tel:+91 9213926442">
+                        9213926442</a></div>
+                <div class="d-flex justify-content-center"><strong>Email : </strong><a
+                        href="mailto: premstudio.lokesh@gmail.com">premstudio.lokesh@gmail.com</a></div>
+
+
+                <br>
+            </div>
+        </div>
+
+    </section>
+
+
+    </div>
+
+    <!------------section 2 ends ------------->
+
+
+
+    <!------------section 3 starts ------------->
+
+
+    <!------------section 3 ends ------------->
+
+
+
+    <!------------section 4 starts ------------->
+
+
+    <!------------section 4 ends ------------->
+
+
+
+
+    <!------------section 5 starts ------------->
+
+
+    <!------------section 5 ends ------------->
+
+
+
+
+    <!------------here my js ------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
 
 </body>
-</head>
+
+</html>

@@ -1,130 +1,259 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!------------here my css ------------->
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="new.css">
-<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
 
-<title>Prem Digital Studio</title>
 <body>
-	 <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+    <!------------section 1 starts ------------->
+    <div class="container-fluid">
+
+
+        <nav class="color">
+
+            <a href="">
+                <img class="logo" src="logo.png" alt="">
+            </a>
+            <h1>Prem Digital Studio</h1>
+            <div class="nav">
+                <a href="">
+                    <li>Home</li>
+                </a>&nbsp;
+                <a href="#products">
+                    <li>Products</li>
+                </a>&nbsp;
+                <a href="#about">
+                    <li>About</li>
+                </a>&nbsp;
+                <a href="#contact">
+                    <li>Contact us</li>
+                </a>
+            </div>
+
+        </nav>
+    </div>
+    <!------------section 1 end ------------->
 
 
 
-<!--  ************header***********-->
-<header>
+    <div id="carouselExampleCaptions" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/slides/01.jpeg" class="d-block w-100" alt="main.jpg">
+     
+                <div class="carousel-caption d-none d-md-block">
+                    <h1></h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/slides/02.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/slides/03.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to Prem Digital Studio</h2>
+                    <p>We Capture Your Moments</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/slides/04.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
-<h1 class="row-lg-1 row-xs-1"><img class="logo" src="picture/logo.png"></img><span>Prem Digital Studio &copy;</span></h1>
+    <br>
+    
+    <button class="btn btn-primary position-absolute" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Book now</button>
 
-</header>
-<img id="banner" class="row-lg-1" src="picture/main1.png">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Book Now</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdr2q9BuUbfKgCWaGx8kGjFJ6M7Zw3-W3zC3GGnnoFLHmLc_Q/viewform?embedded=true"  height="943" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+    <!------------section 2 starts------------->
 
-<!--  ************left side bar***********-->
+    <h2 class="container-fluid">Our Products</h2>
+    <section id=products>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <a href="gift.html" target="_blank">
+                            <img class="img" src="/images/gifts/logo.jpg" alt="Cushion">
+                            <div class="tiles">
+                                <p class="tiles-name">Gift Items</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/festivals/logo.jpg" alt="festivals">
+                            <div class="tiles">
+                                <p class="tiles-name">Festival Specials</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <a href="" target="_blank">
+                            <img class="img" src="/images/frames/logo copy.jpg" alt="frames">
+                            <div class="tiles">
+                                <p class="tiles-name">Fancy Frames</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <a href="">
+                            <img class="img" src="/images/wooden frames/4.jpg" alt="wooden frames">
+                            <div class="tiles">
+                                <p class="tiles-name">Woodeen Items</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-<div class="leftside row-lg-1 text_right">
+        </div>
+    </section>
 
-		<a href="mug.html"><img class="img" src="picture/z-500x500.png" alt="Mug Printing" ></img>
-	 MUGs</a>
-
-
-
-		<a href="fancy.html"> <img class="img" src="picture/unnamed.jpg" alt="Photo Frames" ></img>
-				Fancy Frames</a>
-
-	<a href="gift.html"><img class="img" src="picture/tree.jpg" alt="Wooden Frames"></img>
-			Gift Item</a>
-
-	<a href="accessories.html"><img class="img" src="picture/other/1.png" alt="cusion"></img>
-	Accessories</a>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--  ************right side bar***********-->
-<p  class="rightside row-lg-1">
-
-	<a href="mug.html"><img class="img" src="picture/z-500x500.png" alt="Mug Printing" ></img>
-	 MUGs</a>
-
-
-
-		<a href="fancy.html"> <img class="img" src="picture/unnamed.jpg" alt="Photo Frames" ></img>
-				Fancy Frames</a>
-
-	<a href="gift.html"><img class="img" src="picture/tree.jpg" alt="Wooden Frames"></img>
-			Gift Item</a>
-
-	<a href="accessories.html"><img class="img" src="picture/other/1.png" alt="cusion"></img>
-	Accessories</a>
-</p>
-
-
-
-
-<!--  ************footer***********-->
-<div class="footer row-lg-1 row-xs-1 col-xs-2 ">
-	<!--  ************bottom left***********-->
-		<div class="botleft ">
-
-			<div class="bt_l_text">Contact no : 9213926442</div>
-			<div class="bt_l_text">Email:premstudio.lokesh@gmail.com</div>
-		</div>
-
-
-	<!--  ************bottom mid***********-->
-	<div class="botmid">
-
-		<br>
-			<span>
-				<a href="https://www.facebook.com/premdigitalstudio1993/" target="_blank">
-				<img src="picture/fb.png" alt="fb" style="width:50px;height:50px;"></img></a>
-
-				&nbsp;
-
-				<a href="https://www.instagram.com/premstudionangloi/" target="_blank">
-				<img src="picture/in.png" alt="fb" style="width:50px;height:50px;"></img></a>
-
-				&nbsp;
-				<a href="https://www.youtube.com/channel/UCdGWrrzEZ8IKntb1fjtQdkw" target="_blank"><img src="picture/yt.png" alt="youtube" style="width: 50px; height: 50px;"</img></a>
-			</span>
-
-		<br>
-
-			<a  href="details.html" target="_blank" style="font-size: 24px;"><div>@ Contact us</div></a>
-			<div style="font-style: italic;">@follow us on Social media!</div>
-
-	</div>
-
-</div>
+    <section id="about" class="container-fluid">
+        <h2>About Us</h2>
+        <p><strong>Prem Digital Studio</strong> provides services Since<strong>1994</strong>.</p>
+            <p>We deals with Wedding Phorography ,Events Phorography, Birthday Functions, Product Photography, Portfolio. </p>
+                    <p>Owner: Prem Chand</p>
 
 
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col text-center"><div>Follow us @Social Media</div>
+            <br>
+
+            <div class="d-flex justify-content-center">
+                <a href="https://www.facebook.com/premdigitalstudio1993" target="_blank"><img class=social src="/images/logo/fb.png" alt="">
+                    <div>facebook</div>
+                </a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/premstudionangloi/" target="_blank"><img class=social src="/images/logo/in.png" alt="">
+                    <div>Instagram</div>
+                </a>&nbsp;&nbsp;
+                <a href="https://www.youtube.com/channel/UCdGWrrzEZ8IKntb1fjtQdkw" target="_blank"><img class=social src="/images/logo/yt.png" alt="">
+                    <div>Youtube</div>
+                </a>&nbsp;&nbsp;
+                <a href="https://wa.me/+919213926442?text=I'm%20interested%20i%20just%20saw%20your%20website" target="_blank"><img class=social src="/images/logo/wa.png" alt="">
+                    <div>Whatsapp</div>
+                </a>
+
+            </div>
+               
+            </div>
+
+            <div class="col text-center contact-details">
+
+                <div class="d-flex justify-content-center"><strong>Address:</strong> C-429 , Phase 2, Nangloi Delhi-110041.</div>
+                <div class="d-flex justify-content-center"><strong>Mobile : </strong><a href="tel:+91 9213926442"> 9213926442</a></div>
+                <div class="d-flex justify-content-center"><strong>Email : </strong><a
+                href="mailto: premstudio.lokesh@gmail.com">premstudio.lokesh@gmail.com</a></div>
+                
+
+<br>
+            </div>
+        </div>
+
+    </section>
+
+
+    </div>
+
+    <!------------section 2 ends ------------->
 
 
 
+    <!------------section 3 starts ------------->
+
+
+    <!------------section 3 ends ------------->
+
+
+
+    <!------------section 4 starts ------------->
+
+
+    <!------------section 4 ends ------------->
+
+
+
+
+    <!------------section 5 starts ------------->
+
+
+    <!------------section 5 ends ------------->
+
+
+
+
+    <!------------here my js ------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
 
 </body>
 
-</head>
 </html>
