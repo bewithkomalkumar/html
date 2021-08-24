@@ -10,6 +10,17 @@ body{
 .color{
   background-color: #f5a510;
   width: 100%; 
+  /* position: fixed;
+  left: 0;
+  top: 0; */
+}
+.foot{
+  background-color: rgb(131, 130, 130);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: darkred;
+  font-size: 20px;
 }
 h1{
   position: absolute;
